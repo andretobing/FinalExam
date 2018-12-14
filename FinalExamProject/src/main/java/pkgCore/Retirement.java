@@ -7,6 +7,7 @@ public class Retirement {
 	private int iYearsToWork;
 	private double dAnnualReturnWorking;
 	private int iYearsRetired;
+	
 	private double dAnnualReturnRetired;
 	private double dRequiredIncome;
 	private double dMonthlySSI;
@@ -21,6 +22,7 @@ public class Retirement {
 		this.iYearsToWork = iY2W;
 		this.dAnnualReturnWorking = dARW;
 		this.iYearsRetired = iYR;
+		
 		this.dAnnualReturnRetired = dARR;
 		this.dRequiredIncome = dRI;
 		this.dMonthlySSI = dMSSI;

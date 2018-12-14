@@ -77,6 +77,7 @@ public class RetirementController implements Initializable {
 			
 			double dARW = Double.parseDouble(txtAnnualReturnWorking.getText());
 			double dARR = Double.parseDouble(txtAnnualReturnRetired.getText());
+			
 			double dRI = Double.parseDouble(txtRequiredIncome.getText());
 			double dMSSI = Double.parseDouble(txtMonthlySSI.getText());
 		
@@ -87,6 +88,7 @@ public class RetirementController implements Initializable {
 		}
 		
 		catch(Exception NumberformatException) {
+			
 			System.out.println("Make sure years are in whole numbers and all required fields contain numbers.");
 			throw NumberformatException;
 		}
